@@ -21,7 +21,7 @@ const API_TARGETS: ApiTargetMap = {
 		client: ApiClient.CFWidget,
 	},
 	duolingo: {
-		validation: /^\w*$/,
+		validation: /^[\w-.]{3,16}$/,
 		client: ApiClient.Duolingo,
 	}
 }
